@@ -1,0 +1,359 @@
+/******************************************/
+/*MAX SCREEN 1400px */
+/******************************************/
+
+@media (max-width: 87em) {
+    .heading-primary {
+        font-size: 6.2rem;
+    }
+    .heading-secondary {
+        font-size: 4rem;
+    }
+    .grid {
+        gap: 8rem;
+    }
+
+}
+
+/******************************************/
+/*MAX SCREEN 1246px */
+/******************************************/
+
+@media (max-width: 78em) {
+    .hero-border-line {
+        top: 44%;
+    }
+    .hero-q-items {
+        gap: 0.9rem;
+        font-size: 1rem;
+    }
+    .para-section {
+        font-size: 1.4rem;
+    }
+    .heading-tertiary {
+        font-size: 2.4rem;
+    }
+    .section-why-l-item p {
+        font-size: 1.4rem;
+    }
+    .section-how-content {
+        padding: 2rem;
+    }
+    .section-how-rating-para {
+        font-size: 1.4rem;
+    }
+    .section-how-rating-stars {
+        font-size: 1.4rem;
+    }
+    .heading-3 {
+        font-size: 2rem;
+    }
+    .section-mentor-item {
+        gap: 1.6rem;
+    }
+    .section-mentor-item1 h4 {
+        font-size: 1.6rem;
+    }
+    .section-mentor-item1 p {
+        font-size: 1.4rem;
+    }
+    .memebers-container {
+        gap: 0.6rem;
+        font-size: 1.4rem;
+    }
+    .btn.btn-see-details {
+        padding: 1.2rem 3.2rem;
+        font-size: 1.6rem;
+    }
+    .detail-price .price {
+        font-size: 2rem;
+    }
+
+    .section-what-para {
+        font-size: 1.4rem;
+    }
+    .footer-para-h {
+        font-size: 1.4rem;
+    }
+    .footer-para {
+        font-size: 1.4rem;
+    }
+}
+
+
+/******************************************/
+/*MAX SCREEN 1046px */
+/******************************************/
+
+@media (max-width: 65em) {
+    .grid--2-cols {
+        grid-template-columns: 1fr;
+    }
+    .header-toggle {
+        display: block;
+        transition: 0.3s;
+
+    }
+    .header-toggle:hover {
+        background-color: var(--bkcolor2);
+    }
+    .nav-header-list {
+        display: none;
+    }
+
+    .hero-r {
+        height: 60.6rem;
+        margin-top: 3rem;
+    }
+    .one {
+        top: 2.5%;
+    }
+
+    .hero-r1 {
+        height: 48.5rem;
+    }
+    .hero-shade1 {
+        height: 48.5rem;
+    }
+    .hero-r2 {
+        height: 48.5rem;
+    }
+    .hero-shade2 {
+        height: 48.5rem;
+    }
+
+    .hero-border-line {
+        top: 36%;
+    }
+    .hero-inner-div {
+        justify-content: center;
+    }
+
+    .grid-c2-cols {
+        grid-template-columns: 1fr;
+    }
+    .section-why {
+        padding: 30rem 0 19.8rem 0;
+    }
+    .section-why-cele1 {
+        top: 25%;
+    left: 5%;
+    }
+    .section-why-cele2 {
+        bottom: -50%;
+        left: 5%;
+    }
+    .section-why-cele3 {
+        bottom: -58%;
+        left: 20%;
+    }
+    .btn-why-container {
+        text-align: center;
+    }
+    .section-why-l {
+        margin-top: 6.4rem;
+        gap: 5.2rem;
+    }
+
+    .grid-3-cols {
+        grid-template-columns: 1fr;
+    }
+    .a1 {
+        top: 10%;
+        left: 2%;
+    }
+    .a2 {
+        right: 2%;
+        top: 10%;
+    }
+
+    .container-ben-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .section-ben-r-container {
+        grid-row: 1;
+    }
+    .section-ben {
+        padding: 9.6rem 0 ;
+    }
+    .sec-what-icon-position {
+        right: 50%;
+        bottom: -5%;
+        transform: translate(50%, 0);
+    }
+    .section-join {
+    padding: 18rem 0;
+    
+}
+    .grid {
+        gap: 6.4rem;
+    }
+    .grid.section-what-position {
+        gap: 0;
+    }
+    .bk-clr.grid {
+        margin-bottom: 0;
+        gap: 2.2rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 6.4rem;
+    }
+    .footer-grid-position {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+
+}
+
+
+/******************************************/
+/*MAX SCREEN 786px */
+/******************************************/
+
+@media (max-width: 49.4em) {
+    .heading-primary {
+        font-size: 5.2rem;
+    }
+}
+
+/******************************************/
+/*MAX SCREEN 674px */
+/******************************************/
+
+@media (max-width: 42em) {
+    .hero-border-line {
+        top: 42%;
+    }
+    .hero-r1 {
+        height: 37rem;
+    }
+    .hero-shade1 {
+        height: 37rem;
+    }
+    .hero-r2 {
+        height: 37rem;
+        bottom: -15%;
+    }
+    .hero-shade2 {
+        height: 37rem;
+        bottom: -10%;
+    }
+    .hero-circle-big2 {
+        bottom: -1%;
+    }
+    .hero-circle-sm2 {
+        bottom: 25%;
+    }
+    .hero-messege2 {
+        left: 40%;
+        top: 60%;
+    }
+    .section-why {
+        padding: 9.6rem 0 19.8rem 0;
+    }
+
+}
+
+/******************************************/
+/*MAX SCREEN 532px */
+/******************************************/
+
+@media (max-width: 33em) {
+    .logo {
+        font-size: 1.4rem;
+    }
+    .nav-list {
+        gap: 1.8rem;
+        font-size: 1.4rem;
+    }
+    .btn.btn-login {
+        display: none;
+        padding: 1rem 1.8rem;
+    }
+    .btn.btn-signup {
+        padding: 1rem 1.8rem;
+    }
+
+    .heading-primary {
+        font-size: 3.8rem;
+    }
+    .hero-border-line {
+        top: 32%;
+    }
+    .hero-description {
+        font-size: 1.8rem;
+    }
+    .btn.btn-get-started {
+        padding: 1.6rem 2.4rem;
+        font-size: 1.4rem;
+    }
+    .play-icon {
+        font-size: 1.8rem;
+    }
+    .play-div p {
+        font-size: 1.4rem;
+    }
+    .hero-q {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .hero-q-last-item {
+        grid-column: 1/-1;
+        justify-content: center;
+    }
+    .hero-r1 {
+        height: 28rem;
+    }
+    .hero-shade1 {
+        height: 28rem;
+    }
+    .hero-r2 {
+        height: 28rem;
+        bottom: 10%;
+    }
+    .hero-shade2 {
+        height: 28rem;
+        bottom: 15%;
+    }
+    .hero-circle-big2 {
+        bottom: 30%;
+    }
+    .hero-circle-sm2 {
+        bottom: 43%;
+    }
+    .hero-circle-sm1 {
+        top: 13%;
+    }
+    .hero-messege2 {
+        left: 35%;
+        top: 45%;
+    }
+
+    .heading-secondary {
+        font-size: 3rem;
+    }
+    /* .heading-tertiary {
+        font-size: 2rem;
+    } */
+    .section-why-l {
+        grid-template-columns: 1fr;
+        gap: 4.4rem;
+    }
+    .email-btn {
+        width: 10rem;
+        height: 3.2rem;
+        color: white;
+        font-size: 1.4rem;
+    }
+    .footer-grid {
+        grid-template-columns: 2fr 1fr;
+        gap: 4.4rem;
+    }
+
+
+
+}
