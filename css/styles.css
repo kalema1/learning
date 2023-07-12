@@ -511,7 +511,11 @@ a:link, a:visited {
     padding: 9.6rem 0;
    background-color: var(--bkcolor1);
    position: relative;
-   z-index: -7;
+   /* z-index: -7; */
+}
+.position-relative {
+    position: relative;
+    z-index: 1;
 }
 .section-how-heading {
     text-align: center;
@@ -522,8 +526,9 @@ a:link, a:visited {
 
 .section-h-position {
     position: relative;
+    /* z-index: 2; */
     
-} 
+}
 .section-how-grid-item {
     background-color: white;
     border-radius: 50rem 50rem 5rem 5rem;
@@ -555,7 +560,7 @@ a:link, a:visited {
 .section-how-content {
     padding: 2.4rem;
     position: relative;
-    z-index: 3;
+    z-index: 5;
 }
 .section-how-rating {
     display: flex;
@@ -676,28 +681,28 @@ a:link, a:visited {
 .a1 {
     background-color: #ffd43b;
     position: absolute;
-    top: 25%;
-    left: 2%;
+    top: 21%;
+    left: -2%;
     z-index: -4;
 }
 .a2 {
     background-color: #ff3b30;
     position: absolute;
-    right: 2%;
-    top: 25%;
+    right: -2%;
+    top: 20%;
     z-index: -4;
 }
 .a3 {
     background-color: #1098ad;
     position: absolute;
     top: 41%;
-    right:-6.5%;
+    right: -9%;
     z-index: -4;
 }
 .a4 {
     background-color: orangered;
     position: absolute;
-    left: -6.5%;
+    left: -10%;
     top: 44%;
     z-index: -4;
 }
@@ -934,10 +939,11 @@ a:link, a:visited {
     padding: 6.4rem 8rem;
     position: relative;
     overflow: hidden;
-    z-index: -3;
+    /* z-index: -3; */
 }
 .join-sec-heading-container {
     text-align: center;
+    z-index: 2;
 }
 .heading-secondary.wh-clr {
     color: white;
@@ -975,10 +981,10 @@ a:link, a:visited {
     right: 2%;
     transition: 0.3s;
     cursor: pointer;
-    z-index: 3;
+    z-index: 5;
 }
 .email-btn:hover {
-    background-color: var(--color2);
+    background-color: #364fc7;
 }
 .join-shape-1 {
     width: 20rem;
@@ -988,7 +994,7 @@ a:link, a:visited {
     position: absolute;
     top: -19%;
     left: 1%;
-    z-index: -1;
+    z-index: 1;
 }
 .join-shape-2 {
     width: 20rem;
@@ -998,7 +1004,7 @@ a:link, a:visited {
     position: absolute;
     bottom: 3%;
     left: -5%;
-    z-index: -1;
+    z-index: 1;
 }
 .join-shape-3 {
     width: 22rem;
@@ -1008,7 +1014,7 @@ a:link, a:visited {
     position: absolute;
     top: -9%;
     right: -5%;
-    z-index: -1;
+    z-index: 1;
 }
 .join-shape-3::after {
     content: "";
