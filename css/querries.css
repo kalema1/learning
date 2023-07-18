@@ -255,6 +255,10 @@
     .section-why {
         padding: 9.6rem 0 19.8rem 0;
     }
+    .svg-container {
+    width: 100%;
+    bottom: 23%;
+    }
 
 }
 
@@ -342,6 +346,10 @@
     .section-why-l {
         grid-template-columns: 1fr;
         gap: 4.4rem;
+    }
+
+    .svg-container {
+    bottom: 30%;
     }
     .email-btn {
         width: 10rem;
